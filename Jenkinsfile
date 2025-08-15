@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    IMAGE = "ghcr.io/brscherer/server"
+    IMAGE = "ghcr.io/alex-carvalho/server"
     TAG = "${env.BUILD_NUMBER}"
     HELM_RELEASE = "server"
     KUBE_NAMESPACE = "apps"
